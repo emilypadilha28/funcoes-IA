@@ -6,53 +6,53 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que você sai da escola e se depara com essa nova tecnologia - um chat que responde a qualquer pergunta, cria imagens e áudios hiper-realistas - qual seria seu primeiro pensamento sobre o impacto dessa ferramenta no nosso relacionamento com a natureza?",
+        enunciado: "Assim que você liga a torneira e percebe que a água está racionada na sua região, um vizinho comenta sobre a falta de chuvas e a poluição dos rios – qual seria o seu primeiro pensamento sobre o impacto da escassez de água no seu dia a dia?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
+                texto: "Preciso economizar!",
                 afirmacao: "pensando no possível distanciamento e menor valorização do mundo natural. "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Onde vamos conseguir água?",
                 afirmacao: "pensando nas novas formas de aprender sobre e talvez até proteger a natureza."
             }
         ]
     },
     {
-        enunciado: "Com a descoberta da Inteligência Artificial e a proposta da sua professora para um trabalho sobre o uso de IA em sala de aula, considerando o impacto ambiental da criação e uso dessa tecnologia, qual atitude você toma?",
+        enunciado: "Assim que você sai de casa e se depara com o acúmulo de lixo nas ruas, um noticiário local alerta sobre a capacidade esgotada do aterro sanitário e a poluição dos mares – qual seria o seu primeiro pensamento sobre o impacto do lixo no seu ambiente?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para encontrar informações relevantes para o trabalho, buscando também dados sobre o consumo de energia e recursos dessa tecnologia, e explica o tema numa linguagem acessível.",
+                texto: "Que nojo!",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Escreve o trabalho com base nas conversas com colegas, algumas pesquisas na internet (sem necessariamente focar no impacto ambiental da IA) e seus próprios conhecimentos sobre o tema.",
+                texto: "O que podemos fazer com tanto lixo?",
                 afirmacao:  "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
     {
-        enunciado: "Após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "você respira fundo e sente o ar pesado, um amigo comenta sobre a quantidade de carros na rua e as indústrias da região – qual seria o seu primeiro pensamento sobre o impacto da poluição do ar na sua saúde?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Preciso de ar puro!",
                 afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: " Como o ar ficou tão ruim?",
                 afirmacao:  "Quis saber como usar IA no seu dia a dia."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Assim que você tenta observar um pássaro e percebe que há menos espécies na sua região, um documentário mostra a destruição de florestas e a perda de habitats – qual seria o seu primeiro pensamento sobre o impacto da perda de biodiversidade?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Onde foram os animais?",
                 afirmacao: "afirmação"
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Que tristeza para o planeta!",
                 afirmacao: "afirmação"
             }
         ]
