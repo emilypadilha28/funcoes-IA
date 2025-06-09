@@ -10,11 +10,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Preciso economizar!",
-                afirmacao: "pensando no possível distanciamento e menor valorização do mundo natural. "
+                afirmacao: "Racionamento e poluição da água levam à urgência de economizar."
             },
             {
                 texto: "Onde vamos conseguir água?",
-                afirmacao: "pensando nas novas formas de aprender sobre e talvez até proteger a natureza."
+                afirmacao: "Racionamento,seca e poluição da água geram preocupação sobre o suprimento para o dia a dia."
             }
         ]
     },
@@ -23,11 +23,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Que nojo!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "Ver lixo na rua, com alerta sobre aterro e poluição marinha, provoca repulsa imediata."
             },
             {
                 texto: "O que podemos fazer com tanto lixo?",
-                afirmacao:  "Quis saber como usar IA no seu dia a dia."
+                afirmacao:  "O lixo acumulado e aterros cheios levam à urgente busca por soluções para os resíduos."
             }
         ]
     },
@@ -36,11 +36,11 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Preciso de ar puro!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "O ar pesado, carros e indústrias geram preocupação instintiva por ar puro e saúde."
             },
             {
                 texto: " Como o ar ficou tão ruim?",
-                afirmacao:  "Quis saber como usar IA no seu dia a dia."
+                afirmacao:  "O ar pesado, carros e indústrias levam à curiosidade e preocupação sobre sua deterioração."
             }
         ]
     },
@@ -49,24 +49,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "Onde foram os animais?",
-                afirmacao: "afirmação"
+                afirmacao: "A diminuição de pássaros e a destruição de habitats "
             },
             {
                 texto: "Que tristeza para o planeta!",
-                afirmacao: "afirmação"
+                afirmacao: "A redução de espécies e a destruição de habitats geram profunda tristeza pelo impacto na biodiversidade e no planeta."
             }
         ]
     },
     {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
+        enunciado: "Uma campanha na internet alerta sobre o acúmulo de lixo nos aterros sanitários. Qual seria o seu primeiro pensamento sobre o impacto do consumo excessivo no planeta?",
         alternativas: [
             {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "afirmação"
+                texto: "Devo priorizar produtos com menos embalagem!",
+                afirmacao: "Alerta de lixo e consumo excessivo estimula a priorizar produtos com menos embalagem."
             },
             {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "afirmação"
+                texto: "Nunca vamos conseguir resolver isso!",
+                afirmacao: "Alerta de lixo e consumo excessivo gera desânimo sobre a solução do problema."
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Esse é o futuro...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
